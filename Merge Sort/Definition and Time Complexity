@@ -1,0 +1,22 @@
+MERGE SORT
+Merge Sort is one of the most popularsorting algorithms that is based on the principle of Divide and Conquer Algorithm.
+Here, a problem is divided into multiple sub-problems. 
+Each sub-problem is solved individually. 
+Finally, sub-problems are combined to form the final solution.
+
+
+
+MergeSortAlgorithm
+The MergeSortfunction repeatedly divides the array into two halves until we reach a stage where we try to perform MergeSorton a subarray of size 1 i.e. p == r.
+After that, the merge function comes into play and combines the sorted arrays into larger arrays until the whole array is merged.
+
+
+TIME COMPLEXITY
+
+Best Case Complexity: O(n*log n)
+Worst Case Complexity: O(n*log n)
+Average Case Complexity: O(n*log n)
+
+SPACE COMPLEXITY
+
+The space complexity of merge sort is O(n).
