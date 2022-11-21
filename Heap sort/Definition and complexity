@@ -1,0 +1,32 @@
+What is Heap Data Structure?
+Heap is a special tree-based data structure. 
+A binary tree is said to follow a heap data structure if ,it isa complete binary tre
+•All nodes in the tree follow the property that they are greater than their children i.e. the largest element is at the root and both its children and smaller than the root and so on. Such a heap is called a max-heap. 
+If instead, all nodes are smaller than their children, it is called a min-heap.
+
+
+Working of Heap Sort
+
+After converting heap to max heap
+Since the tree satisfies Max-Heap property, then the largest item is stored at the root node.
+Swap- Remove the root element and put at the end of the array (nth position) Put the last item of the tree (heap) at the vacant place.3
+Remove:Reduce the size of the heap by 1.
+Heapify:Heapifythe root element again so that we have the highest element at root.
+The process is repeated until all the items of the list are sorted
+
+
+
+
+Heap Sort 
+
+Time Complexity
+
+Best O(nlog n)
+Worst O(nlog n)
+Average O(nlog n)
+
+Space Complexity
+O(1)
+Stability No
+
+
