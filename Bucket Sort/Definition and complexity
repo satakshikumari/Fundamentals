@@ -1,0 +1,21 @@
+Bucket Sort
+
+Bucket Sort isa sorting algorithm that divides the unsorted array elements into several groups called buckets. 
+Each bucket is then sorted by using any of the suitablesorting algorithmsor recursively applying the same bucket algorithm.
+Finally, the sorted buckets are combined to form a final sorted array.
+
+
+Scatter Gather Approach 
+The process of bucket sort can be understood as ascatter-gather approach. 
+Here, elements are first scattered into buckets then the elements in each bucket are sorted. 
+Finally, the elements are gathered in order.
+
+
+Complexity
+
+Time Complexity
+Best O(n+k)
+Worst O(n2)
+Average O(n)
+Space Complexity O(n+k)
+Stability Yes
