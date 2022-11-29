@@ -1,0 +1,32 @@
+Circular Singly Linked List
+
+Circular Singly Linked List is a type of linked list that is circular in nature. 
+In a circular linked list, every node has successor. 
+In this data structure, every node points to the next node and the last node of the linked list points to the first node. This feature makes it circular in nature. 
+It is essential to know that the circular linked lists have no end and we need to be careful while traversing the linked list.
+
+Application of Circular Linked Lists:
+Circular Linked Lists can be used to manage the computing resources of the computer.
+Data structures such as stacks and queues are implemented with the help of the circular linked lists.
+Circular Linked List is also used in the implementation of advanced data structures such as a Fibonacci Heap.
+It is also used in computer networking for token scheduling.
+
+
+
+
+Circular Doubly Linked List In Java
+A circular doubly linked list is one of the complex structures.
+In this list, the last node of the doubly linked list contains the address of the first node and the first node contains the address of the last node. 
+Thus in a circular doubly linked list, there is a cycle and none of the node pointers are set to null. 
+Circular doubly linked lists have wide applications in the software industry.
+One such application is the musical app which has a playlist. In the playlist, when you finish playing all the songs, then at the end of the last song, you go back to the first song automatically. 
+This is done using circular lists.
+
+Advantages of a Circular Double Linked List:
+The circular doubly linked list can be traversed from head to tail or tail to head.
+Going from head to tail or tail to head is efficient and takes only constant time O(1).
+It can be used for implementing advanced data structures including Fibonacci heap.
+
+Disadvantages:
+As each node needs to make space for the previous pointer, extra memory is required.
+We need to deal with lots of pointers while performing operations on a circular doubly linked list. If pointers are not handled properly, then the implementation may break.
